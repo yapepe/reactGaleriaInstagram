@@ -1,0 +1,26 @@
+.GaleriaInstagram {
+  background-color: red;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  grid-gap: 2rem;
+  margin: 5%;
+}
+
+.GaleriaInstagram .GaleriaInstagram__foto {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.GaleriaInstagram .GaleriaInstagram__foto:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0.9;
+}
+/*# sourceMappingURL=GaleriaInstagram.css.map */

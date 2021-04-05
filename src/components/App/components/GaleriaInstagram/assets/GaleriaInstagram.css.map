@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,gBAAgB,EAAE,GAAG;EACrB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,oCAAoC;EAC3D,QAAQ,EAAE,IAAI;EACd,MAAM,EAAE,EAAE;CAab;;AAnBD,AAQI,iBARa,CAQb,uBAAuB,CAAC;EACpB,OAAO,EAAE,WAAW;EACpB,eAAe,EAAE,MAAM;EACvB,QAAQ,EAAE,QAAQ;CAOrB;;AAlBL,AAaQ,iBAbS,CAQb,uBAAuB,AAKlB,MAAM,CAAC;EACJ,gBAAgB,EAAE,kBAAkB;EACpC,OAAO,EAAE,GAAG;CAEf",
+    "sources": [
+        "GaleriaInstagram.scss"
+    ],
+    "names": [],
+    "file": "GaleriaInstagram.css"
+}

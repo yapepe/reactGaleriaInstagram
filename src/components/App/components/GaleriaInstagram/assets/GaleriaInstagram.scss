@@ -1,0 +1,20 @@
+.GaleriaInstagram {
+    background-color: red;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    grid-gap: 2rem;
+    margin: 5%;
+
+    .GaleriaInstagram__foto {
+        display: inline-flex;
+        justify-content: center;
+        position: relative;
+        
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+            opacity: 0.9;
+
+        }
+    }
+}
