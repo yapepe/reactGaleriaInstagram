@@ -13,13 +13,13 @@ function App() {
     <div className="app">
       <GaleriaInstagram
       lista = {[
-        <div> <img src={imagen1}></img></div>,
-        <div> <img src={imagen2}></img></div>,
-        <div> <img src={imagen3}></img></div>,
-        <div> <img src={imagen4}></img></div>,
-        <div> <img src={imagen5}></img></div>,
-        <div> <img src={imagen6}></img></div>,
-        <div> <img src={imagen7}></img></div>
+        <img src={imagen1}></img>,
+        <img src={imagen2}></img>,
+        <img src={imagen3}></img>,
+        <img src={imagen4}></img>,
+        <img src={imagen5}></img>,
+        <img src={imagen6}></img>,
+        <img src={imagen7}></img>
       ]}/>
     </div>
   )

@@ -19,8 +19,86 @@
   position: relative;
 }
 
+.GaleriaInstagram .GaleriaInstagram__foto img {
+  width: 100%;
+  height: 100%;
+}
+
 .GaleriaInstagram .GaleriaInstagram__foto:hover {
   background-color: rgba(0, 0, 0, 0.3);
   opacity: 0.9;
+}
+
+.GaleriaInstagram .GaleriaInstagram__modal__cerrar {
+  background-color: greenyellow;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.GaleriaInstagram .GaleriaInstagram__modal__cerrar .GaleriaInstagram__modal__cerrar__tache {
+  color: blue;
+  font-size: 5em;
+  float: right;
+  cursor: pointer;
+}
+
+.GaleriaInstagram .GaleriaInstagram__modal__cerrar .GaleriaInstagram__modal__cerrar__tache:hover {
+  color: white;
+}
+
+.GaleriaInstagram .GaleriaInstagram__modal__foto img {
+  width: 100vw;
+  height: 75vh;
+  position: absolute;
+  top: 13%;
+  left: 0%;
+  z-index: 2;
+}
+
+.GaleriaInstagram .GaleriaInstagram__modal__foto__derecha {
+  background-color: none;
+  width: 15vw;
+  height: 75vh;
+  position: absolute;
+  top: 13%;
+  right: 0;
+  z-index: 2;
+}
+
+.GaleriaInstagram .GaleriaInstagram__modal__foto__derecha p {
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 15%;
+}
+
+.GaleriaInstagram .GaleriaInstagram__modal__foto__derecha:hover {
+  background-color: red;
+}
+
+.GaleriaInstagram .GaleriaInstagram__modal__foto__izquierda {
+  background-color: none;
+  width: 15vw;
+  height: 75vh;
+  position: absolute;
+  top: 13%;
+  left: 0;
+  z-index: 2;
+}
+
+.GaleriaInstagram .GaleriaInstagram__modal__foto__izquierda p {
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 15%;
+}
+
+.GaleriaInstagram .GaleriaInstagram__modal__foto__izquierda:hover {
+  background-color: red;
 }
 /*# sourceMappingURL=GaleriaInstagram.css.map */
