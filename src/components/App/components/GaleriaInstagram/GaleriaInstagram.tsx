@@ -1,9 +1,13 @@
 import './assets/GaleriaInstagram.css'
 import { useState } from 'react'
 
-export default function GaleriaInstagram( { lista } ) {
+interface Props{
+    lista:any[]
+  } 
 
-    let eKey = 0
+export default function GaleriaInstagram( { lista }:Props ) {
+
+    let eKey:number = 0
 
     const [ mostrarImagen, setMostrarImagen ] = useState(false)
     const [ imagenModal, setImagenModal ] = useState( lista[0] )
